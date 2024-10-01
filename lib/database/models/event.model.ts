@@ -1,4 +1,4 @@
-import { Document, ObjectId, model, models, Schema } from "mongoose";
+import { Document, model, models, Schema } from "mongoose";
 
 export interface IEvent extends Document{
     _id: string;

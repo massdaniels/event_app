@@ -1,14 +1,10 @@
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
 import Image from "next/image"
 import { Separator } from "../ui/separator"
-import Navbar from "./Navbar"
 import NavbarItems from "./Navbar"
   
 function MoblieNav() {

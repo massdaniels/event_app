@@ -50,7 +50,6 @@ export async function POST(req: Request) {
 
   // Do something with the payload
   // For this guide, you simply log the payload to the console
-  const { id } = evt.data
   const eventType = evt.type
 
   if (eventType === 'user.created'){
@@ -80,7 +79,7 @@ export async function POST(req: Request) {
 
 
   if (eventType === 'user.updated'){
-    const { id, email_addresses, image_url, first_name, last_name, username } = evt.data
+    const { id, image_url, first_name, last_name, username } = evt.data
 
     const user = {
         username: username!,
